@@ -3,5 +3,10 @@ class Appointment
 
   @@all = []
 
-  def new()
+  def new(date, patient, doctor)
+    @date = date
+    @patient = patient
+    @doctor = doctor
+  end
+
 end
