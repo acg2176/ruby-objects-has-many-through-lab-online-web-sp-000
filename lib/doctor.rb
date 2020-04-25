@@ -8,5 +8,12 @@ class Doctor
     @@all << self
   end
 
-  #def new
+  def new
+
+  end
+
+  def self.all
+    @@all
+  end
+  
 end
