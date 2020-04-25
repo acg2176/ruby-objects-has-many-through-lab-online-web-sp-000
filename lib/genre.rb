@@ -6,11 +6,10 @@ class Genre
   def initialize(name)
     @name = name
     @@all << self
-    @songs = []
   end
 
   def songs
-    @songs
+    Song.all.select {|song| song.genre == self}
   end
 
   def self.all
@@ -18,6 +17,7 @@ class Genre
   end
 
   def artists
+
   end
 
 end
