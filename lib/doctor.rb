@@ -8,11 +8,6 @@ class Doctor
     @@all << self
   end
 
-  # def new(name)
-  #   Doctor.new(name)
-  #   @@all << self
-  # end
-
   def self.all
     @@all
   end
