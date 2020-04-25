@@ -22,10 +22,10 @@ class Artist
     #new_song.artist = self
     #@songs << new_song
 
-
   end
 
   def genres
+    Genre.all.select {|genre| genre.artist == self}
   end
 
 
