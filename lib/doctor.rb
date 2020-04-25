@@ -8,7 +8,7 @@ class Doctor
   end
 
   def new(name)
-
+    @@all << self
   end
 
   def self.all
