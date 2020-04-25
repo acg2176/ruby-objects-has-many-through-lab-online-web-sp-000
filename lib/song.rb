@@ -22,6 +22,4 @@ class Song
     @genre
   end
 
-
-
 end
